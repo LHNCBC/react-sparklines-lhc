@@ -1,8 +1,6 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 import * as dataProcessing from './dataProcessing';
-//import dataToPoints from './dataProcessing/dataToPoints';
-
 
 export default class SparklinesReferenceLine extends React.Component {
 
