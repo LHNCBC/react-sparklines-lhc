@@ -27,6 +27,7 @@ function randomData(n = 30) {
     return Array.apply(0, Array(n)).map(boxMullerRandom);
 }
 
+const sampleData20 = [1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6,7,8,9,10];
 const sampleData = randomData(30);
 const sampleData100 = randomData(100);
 
@@ -225,9 +226,10 @@ const ReferenceLine5 = () =>
     </Sparklines>
 
 const ReferenceLine6 = () =>
-    <Sparklines data={sampleData}>
-        <SparklinesBars style={{ fill: 'slategray', fillOpacity: ".5" }} />
-        <SparklinesReferenceLine />
+    <Sparklines data={sampleData20}>
+        <SparklinesBars  />
+        <SparklinesReferenceLine type="custom" value={2}/>
+        <SparklinesReferenceLine type="custom" value={5.5}/>
     </Sparklines>
 
 const NormalBand1 = () =>
