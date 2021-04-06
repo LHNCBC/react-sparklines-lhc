@@ -304,9 +304,10 @@
         <div class="row">
             <div id="referenceline6"></div>
             <pre class="prettyprint"><xmp>
-<Sparklines data={sampleData}>
-    <SparklinesBars style={{ fill: 'slategray', fillOpacity: ".5" }} />
-    <SparklinesReferenceLine />
+<Sparklines data={sampleData20}>
+    <SparklinesBars  />
+    <SparklinesReferenceLine type="custom" value={2}/>
+    <SparklinesReferenceLine type="custom" value={5.5}/>
 </Sparklines>
             </xmp></pre>
         </div>

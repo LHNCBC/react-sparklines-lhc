@@ -1,6 +1,6 @@
 {
   "name": "react-sparklines",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "description": "Beautiful and expressive Sparklines component for React ",
   "main": "build/index.js",
   "directories": {
@@ -28,6 +28,7 @@
     "jsx"
   ],
   "author": "Boris Yankov <borisyankov@gmail.com> (https://github.com/borisyankov)",
+  "contributors": ["Ye Wang <wangye@nih.gov> (https://github.com/lhcye)"],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/borisyankov/react-sparklines/issues"

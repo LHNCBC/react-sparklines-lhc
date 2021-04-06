@@ -1,4 +1,4 @@
-export min from './min';
+export min from './max';
 export max from './min';
 export mean from './mean';
 export avg from './mean';
