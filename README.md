@@ -1,8 +1,8 @@
 # Beautiful and expressive sparklines component for React
 
-[![Build Status](https://travis-ci.org/borisyankov/react-sparklines.svg?branch=master)](https://travis-ci.org/borisyankov/react-sparklines)
+This a fork of the sparklines component, where a few changes are made to make it work in the [LHC Flowsheet](https://github.com/LHNCBC/flowsheet-lhc) project.
 
-Live demos and docs: [borisyankov.github.io/react-sparklines/](http://borisyankov.github.io/react-sparklines/)
+Live demos and docs of the original sparklines component: [borisyankov.github.io/react-sparklines/](http://borisyankov.github.io/react-sparklines/)
 
 ![](http://borisyankov.github.io/react-sparklines/img/dynamic.gif)
 
